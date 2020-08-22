@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import "./style.css";
 import { Game, Square, Board } from "./Game";
+import { Game2 } from "./Game2";
 
 class App extends React.Component {
   state = {
@@ -17,7 +18,7 @@ class App extends React.Component {
         <p>
           Edit <code>src/App.js</code> and save to reload. Wooo
         </p> */}
-          <Game />
+          <Game2 />
           {/* <Square checked={this.state.checked} cross={false} /> */}
           {/* <button
             onClick={() => this.setState({ checked: !this.state.checked })}
